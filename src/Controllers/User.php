@@ -1,11 +1,19 @@
 <?php
 
 namespace Eraasoft311\Project\Controllers;
+use Eraasoft311\Mvc\Database\DB;
+use Eraasoft311\Project\Models\userModel;
 
-class User{
+class User extends Controller{
+
     public function index()
     {
-        echo "index user";
+        dd(userModel::get());
+        // $data = DB::table("category")->select()->all();
+       
+        $name = "mohamed";
+        $title = "index mohamed";
+       return view("index",['name'=>$name,"title"=>$title]);
     }
 
     public function update()

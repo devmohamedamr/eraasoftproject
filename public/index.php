@@ -7,6 +7,7 @@ use Eraasoft311\Project\Core\Route;
 use Eraasoft311\Project\Core\Kernel;
 
 
+
 $whoops = new \Whoops\Run;
 $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();
@@ -14,10 +15,6 @@ $whoops->register();
 
 
 
-
-// echo "<pre>";
-
-// print_r(Route::$routes);
 
 
 

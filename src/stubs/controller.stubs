@@ -1,0 +1,31 @@
+<?php
+
+namespace Eraasoft311\Project\Controllers;
+use Eraasoft311\Mvc\Database\DB;
+
+class {name} extends Controller{
+    
+    public function index(){
+
+    }
+
+    public function create(){
+
+    }
+
+    public function store(){
+
+    }
+
+    public function update(){
+
+    }
+
+    public function delete(){
+
+    }
+
+    public function show(){
+
+    }
+}
